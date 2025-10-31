@@ -1,14 +1,14 @@
 # HomeWork
 //დაწერეთ ფუქნცია, სახელად sayHello, რომელიც დაპრინტავს - "Hello, World".
 
-/*function sayHello(){
+function sayHello(){
     return "hello, world"
 }
 console.log(sayHello());*/
 
 
 //დაწერეთ ფუნქცია, სახელად greet, რომელიც პარამეტრა მიიღებს სახელს და დაპრინტავს - "გამარჯობა, [სახელი]"
-/*let x=prompt("შემოიყვანე სახელი");
+let x=prompt("შემოიყვანე სახელი");
 function greet(){ 
     let y=prompt(`გამარჯობა, ${x}`)
 
@@ -17,14 +17,14 @@ function greet(){
 greet()*/
 
 //დაწერეთ ფუნქცია, სახელად sum, რომელიც არგუმენტებად მიიღებს ორ რიცხვს და დააბრუნებს მათ ჯამს. შედეგი გამოიტანეთ ტერმინალში.
-/*function sum(x,y){
+function sum(x,y){
     return x+y;
 }
 console.log(sum(5,8))
 */
 
 //დაწერეთ ფუნქცია, სახელად calculateArea, რომელიც არგუმენტად მიიღებს ოთხკუთხედის სიგრესა და სიგანეს და დააბრუნებს მის ფართობს. შედეგი გამოიტანეთ ტერმინალში.
-/*function calculateArea(x,y){
+function calculateArea(x,y){
     let c=x*y;
     return c
 }
@@ -33,7 +33,7 @@ console.log(calculateArea(10,15));*/
 
 //დაწერეთ ფუნქცია, რომელიც მიიღებს ორ არგუმენტს და დააბრუნებს მათ შორის უდიდესს. გამოიყენეთ სამივე - Function Declaration, Function Expression, Arrow Function.
 
-/*function udidesi(x,y){
+function udidesi(x,y){
     if (x>y){
         return x
     }else{
@@ -44,17 +44,17 @@ console.log(udidesi(67,90))*/
 
 //დაწერეთ ფუქნცია, რომელიც პარამეტრად მიიღებს იმ რაოდენობას, რამდენჯერად უნდა გამოკონსოლდეს "Hello, World".
 
-/*let x="hello world"
+let x="hello world"
 function parametri(y){
     return x.length * y;
 
-}*/
+}
 
 
 //დაწერეთ პროგრამა, რომ იპოვოთ მასივის ყველა რიცხვის ჯამი.
 
 
-/*let x=[1,2,3,4,5,6,7,8,9,10]
+let x=[1,2,3,4,5,6,7,8,9,10]
 let y=0
 for(let num of x){
     y+=num
@@ -63,7 +63,7 @@ for(let num of x){
 
     //დაწერეთ პროგრამა მასივში რიცხვების საშუალოს საპოვნელად.
 
-  /*  let numbers = [1, 2, 6, 10, 24];
+  let numbers = [1, 2, 6, 10, 24];
 let sum = 0;
 
 function average() {
@@ -77,16 +77,16 @@ function average() {
 average();*/
 //დაწერეთ პროგრამა რიცხვების მასივის ზრდის მიხედვით დასალაგებლად.
 
-/*let numbers=[1,2,4,5,6,3,2,10,76,35]
+let numbers=[1,2,4,5,6,3,2,10,76,35]
 numbers.sort((a,b)=>a-b)
 console.log(numbers);*/
 
 //დაწერეთ პროგრამა მასივში ყველაზე დიდი ელემენტის მოსაძებნად. ეს მარტივი გზაა
-/*let massive=[1,2,3,4,5,6,7,8,10,23,35,64,57,68,67,100000]
+let massive=[1,2,3,4,5,6,7,8,10,23,35,64,57,68,67,100000]
 let x=Math.max(...massive);
 console.log(x)*/
 
-/*let numbers=[1,2,4,5,6,3,2,10,76,35];
+let numbers=[1,2,4,5,6,3,2,10,76,35];
 let max=numbers[0]
 for(let man of numbers){
     if (man>max){
@@ -96,7 +96,7 @@ for(let man of numbers){
 }
 console.log(max)*/
 //აწერეთ პროგრამა მასივის ყველაზე პატარა ელემენტის მოსაძებნად.
-/*let numbers=[1,40,4,5,6,3,2,10,76,35];
+let numbers=[1,40,4,5,6,3,2,10,76,35];
 let min=numbers[0]
 function witchIsSmall(){
     for (let num of numbers){
@@ -108,7 +108,7 @@ function witchIsSmall(){
 }
 witchIsSmall();*/
 //დაწერეთ პროგრამა, რათა შეამოწმოთ, შეიცავს თუ არა მასივი კონკრეტულ ელემენტს.
-/*let numbers=[1,40,4,5,6,3,2,10,76,35];
+let numbers=[1,40,4,5,6,3,2,10,76,35];
 function aahah(){
     for(let num of numbers){
         if(num===45){
@@ -120,7 +120,7 @@ function aahah(){
 }
 console.log(aahah())*/
 //დაწერეთ პროგრამა მასივიდან ელემენტის ამოსაღებად.
-/*let numbers=[1,40,4,5,6,3,2,10,76,35];
+let numbers=[1,40,4,5,6,3,2,10,76,35];
 numbers.pop()
 console.log(numbers)
 numbers.shift()
@@ -131,7 +131,7 @@ numbers.push(90);
 console.log(numbers)*/
 
 //დაწერეთ პროგრამა, რომ იპოვოთ მასივის ყველა ლუწი რიცხვის ჯამი.
-/*
+
  let numbers=[1,40,4,5,6,3,2,10,76,35];
  let somo=0;
  function aahah(){
@@ -145,7 +145,7 @@ console.log(numbers)*/
  }
 aahah();*/
 //დაწერეთ პროგრამა მასივში სიდიდით მეორე რიცხვის მოსაძებნად.?????
-/*let numbers=[1,40,4,5,6,3,2,10,76,35];
+let numbers=[1,40,4,5,6,3,2,10,76,35];
 let max=0;
 function aahah(){
     for(let num of numbers){
@@ -154,18 +154,18 @@ function aahah(){
     }
 }*/
 //დაწერეთ პროგრამა რომ ორი სორტირებული მასივის შერთდეს და გახდეს ერთი მასივი რომელიც ასევე სორტირებული იქნება.
-/*let numbers=[1,40,4,5,6,3,2,10,76,35];
+let numbers=[1,40,4,5,6,3,2,10,76,35];
 let numbers2=[45,78,97,79,3522,2413]
 numbers.sort((a,b)=>a-b);
 numbers2.sort((a,b)=>a-b);
 let saerto=[...numbers,...numbers2].sort((a,b)=>a-b);
 console.log(saerto)*/
 //დაწერეთ პროგრამა სტრიქონების მასივის ანბანის მიხედვით დასალაგებლად.\
-/*let fruits = ["banana", "apple", "cherry", "mango", "kiwi"];
+let fruits = ["banana", "apple", "cherry", "mango", "kiwi"];
 fruits.sort();
 console.log(fruits);*/
 //შექმენით ობიექტი სახელწოდებით car თვისებებით მარკის, მოდელისა და წლისთვის. დაბეჭდეთ ობიექტი კონსოლზე.
-/*let car={
+let car={
         mark:"bmw",
         model:"c450",
         year:"2005",
@@ -176,7 +176,7 @@ console.log(fruits);*/
 //დაამატეთ მეთოდი car ობიექტს სახელწოდებით start, რომელიც ბეჭდავს "The car is starting!" როდესაც გამოძახება. გამოიძახეთ დაწყების მეთოდი.
 car.start();*/
 //შექმენით სხვა ობიექტი სახელად Person სახელის, ასაკისა და ქალაქის თვისებებით. დაბეჭდეთ სახელის თვისება წერტილის გამოყენებით.
-/*let Person={
+let Person={
         age:23,
         city:"tbilisi",
         name:"temo"
@@ -187,25 +187,21 @@ console.log(Person.name)
 //დაამატეთ ახალი თვისება სახელწოდებით job, Person ობიექტს და მიანიჭეთ მას მნიშვნელობა. დაბეჭდეთ განახლებული ობიექტი.
 
 Person.job="araferi";
-console.log(Person);*/
+console.log(Person);
 //პროექტი 10 - ქულების გამომთვლელი
-/*შექმენით მარტივი JavaScript პროგრამა, რომელიც ითვლის შეფასებას მოსწავლის ქულების მიხედვით.
-შეფასების სქემა შემდეგნაირია:
-A: 90-100
-B: 80-89
-C: 70-79
-D: 60-69
-F: 0-59
-პროგრამამ უნდა მოსთხოვოს მომხმარებელს შეიყვანოს რიცხვითი ქულა(0-დან 100-ის ჩათვლით ნებისმიერი რიცხვი).
-გამოიყენეთ პირობითი ოპერატორები შეყვანილი რიცხვის შეფასების დასადგენად.
-ეკრანზე გამოიტანეთ როგორც შეყვანილი რიცხვი ასევე შესაბამისი ასო.
+//შექმენით მარტივი JavaScript პროგრამა, რომელიც ითვლის შეფასებას მოსწავლის ქულების მიხედვით.
+//შეფასების სქემა შემდეგნაირია:
+//A: 90-100
+//B: 80-89
+//C: 70-79
+//D: 60-69
+//F: 0-59
+//პროგრამამ უნდა მოსთხოვოს მომხმარებელს შეიყვანოს რიცხვითი ქულა(0-დან 100-ის ჩათვლით ნებისმიერი რიცხვი).
+//გამოიყენეთ პირობითი ოპერატორები შეყვანილი რიცხვის შეფასების დასადგენად.
+//ეკრანზე გამოიტანეთ როგორც შეყვანილი რიცხვი ასევე შესაბამისი ასო.
 
-მაგალითად:
-> Enter the student's score: 78
-> Student's Score: 78
-> Grade: C
-*/
-/*function check() {
+//
+function check() {
     let question = Number(prompt("შემოიყვანეთ თქვენი ქულა (0-100):"));
     
     
@@ -247,7 +243,7 @@ console.log(result());*/
 > 10 * 5 = 50
 > 10 / 5 = 2
 */
-/*function check() {
+function check() {
   let firstNumber = Number(prompt("What is the first number?"));
   let secondNumber = Number(prompt("What is the second number?"));
 
